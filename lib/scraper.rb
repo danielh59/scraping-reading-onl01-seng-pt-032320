@@ -7,3 +7,4 @@ doc = Nokogiri::HTML(html)
 
 course.each |course|
 puts course.text.strip
+end 
